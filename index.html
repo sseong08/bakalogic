@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  		<script src="baka.js"></script>
+		<script src="https://raw.githack.com/chartjs/Chart.js/v1.1.1/Chart.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	<body>
+		<div class="row">
+			<span>
+				<input class="balloon" id="whole_game" type="text" placeholder="전체 게임 횟수"/><label for="whole_game">전체게임</label>
+			</span>
+			<span>
+				<input class="balloon" id="bangker" type="text" placeholder="벵커 승리 횟수" /><label for="bangker" >뱅커</label>
+			</span>
+			<span>
+				<input class="balloon" id="player" type="text" placeholder="플레이어 승리 횟수" /><label for="player">플레이어</label>
+			</span>
+			<span>
+				<input class="balloon" id="tie" type="text" placeholder="타이 승리 횟수" /><label for="tie">타이</label>
+			</span>
+			<span> 
+				<button class="bubbly-button" id="button" onclick="bakcalc()">계산</button>
+			</span>
+		</div>
+		<div id="pieChart" class="chart"></div>
+	</body>
+</html>
