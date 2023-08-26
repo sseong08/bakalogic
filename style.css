@@ -23,7 +23,6 @@ body {
   position: relative;
   z-index: 1;
   text-align: center;
-/*   position: relative; */
 }
 .row:before {
   position: absolute;
@@ -141,7 +140,6 @@ body {
   left: 50%;
   margin: -225px 0 0 -225px;
 }
-
 .pieTip:after {
       position: absolute;
       left: 50%;
