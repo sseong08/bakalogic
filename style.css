@@ -23,7 +23,7 @@ body {
   position: relative;
   z-index: 1;
   text-align: center;
-  position: relative;
+/*   position: relative; */
 }
 .row:before {
   position: absolute;
