@@ -23,6 +23,7 @@ body {
   position: relative;
   z-index: 1;
   text-align: center;
+  position: relative;
 }
 .row:before {
   position: absolute;
@@ -133,9 +134,12 @@ body {
 }
 
 .chart {
+  position: absolute; /* 추가 */
   width: 100%;
-  padding-bottom: 100%; /* 정사각형 비율을 유지하기 위해 */
-  position: relative;
+  padding-bottom: 100%;
+  /* 기존 스타일 유지 */
+  top: 0;
+  left: 0;
 }
 
 .pieTip:after {
