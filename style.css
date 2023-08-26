@@ -134,12 +134,9 @@ body {
 }
 
 .chart {
-  position: absolute; /* 추가 */
-  width: 100%;
-  padding-bottom: 100%;
-  /* 기존 스타일 유지 */
-  top: 0;
-  left: 0;
+  width: 450px;
+  height: 450px;
+  margin: -225px 0 0 -225px; /* 기존 스타일 유지 */
 }
 
 .pieTip:after {
